@@ -1,5 +1,9 @@
 # Wumpus World AI Comparison
 
+[![Tests](https://github.com/Saeiii-d/wumpus-world-ai-comparison/actions/workflows/tests.yml/badge.svg)](https://github.com/Saeiii-d/wumpus-world-ai-comparison/actions/workflows/tests.yml)
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A Python implementation of an 8×8 Wumpus World environment for comparing three different AI approaches: a fully observable A\* baseline, a partially observable knowledge-based agent, and a genetic algorithm that evolves decision-policy weights.
 
 The project focuses on how different assumptions about available information affect navigation, risk management, and decision-making in the same environment.
