@@ -1,0 +1,36 @@
+{
+  "genes": [
+    "explore",
+    "known_safe",
+    "toward_frontier",
+    "toward_exit",
+    "avoid_wumpus_risk",
+    "avoid_pit_risk",
+    "avoid_revisit",
+    "avoid_known_pit",
+    "avoid_backtrack",
+    "information_gain",
+    "health_reserve"
+  ],
+  "seed": 42,
+  "validation": {
+    "death_rate": 0.4,
+    "gold_rate": 0.7,
+    "mean_health": 34.13333333333333,
+    "mean_score": 313.46666666666664,
+    "success_rate": 0.5666666666666667
+  },
+  "weights": {
+    "avoid_backtrack": 0.07995436690440753,
+    "avoid_known_pit": 0.07583477868375005,
+    "avoid_pit_risk": 0.060858861720516855,
+    "avoid_revisit": 0.11340404886142913,
+    "avoid_wumpus_risk": 0.12047968083282856,
+    "explore": 0.0820822425294062,
+    "health_reserve": 0.0843240070094362,
+    "information_gain": 0.10261260062402919,
+    "known_safe": 0.060970145403657236,
+    "toward_exit": 0.15836651480554026,
+    "toward_frontier": 0.06111275262499872
+  }
+}
