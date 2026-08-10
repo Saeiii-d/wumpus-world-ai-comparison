@@ -369,6 +369,12 @@ The more meaningful comparison is how each approach behaves under its own inform
 - Reproducible random-map generation
 - Automated testing
 
+## Related Article
+
+For a detailed discussion of the design decisions, observability differences, knowledge-based reasoning, and genetic-policy training used in this project, see:
+
+[**Comparing A\*, Knowledge-Based Reasoning, and a Genetic Policy in Wumpus World**](https://medium.com/@saeiiid.khazaei/comparing-a-knowledge-based-reasoning-and-a-genetic-policy-in-wumpus-world-4e9ea8f71b04)
+
 ## License
 
 This project is licensed under the MIT License. See [`LICENSE`](LICENSE) for details.
