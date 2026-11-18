@@ -34,6 +34,13 @@ The three approaches intentionally operate under different information assumptio
 | **Knowledge-Based Agent** | Partial       | Builds a knowledge base from local percepts and infers safe, dangerous, and uncertain cells.                |
 | **Genetic Policy**        | Partial       | Evolves heuristic weights that guide an online policy using only information discovered during exploration. |
 
+```mermaid
+flowchart LR
+    ENV[8x8 Wumpus World Environment] -->|Full Map State| ASTAR[A* Offline Oracle<br/>Upper-Bound Baseline]
+    ENV -->|Local Percepts Only<br/>Stench · Breeze · Bump| KB[Knowledge-Based Agent<br/>Iterative Inference + Risk]
+    ENV -->|Local Percepts Only<br/>Stench · Breeze · Bump| GA[Genetic Policy<br/>11 Evolved Heuristic Weights]
+```
+
 ### A\* Offline Oracle
 
 The A\* implementation has access to the complete map, including hazards, walls, gold, and exit location.
