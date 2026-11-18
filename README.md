@@ -116,6 +116,20 @@ data/pretrained_ga_seed42.json
 
 This allows the genetic agent to be demonstrated without retraining the model.
 
+## Benchmark Results
+
+Evaluated on the **50-map held-out GA test split** (`python main.py --ga-test-benchmark --seed 42 --ga-runs 1`):
+
+[https://github.com/user-attachments/assets/7ebb1840-546c-43c9-8813-1c67a760db2c]
+
+| Algorithm | Runs | Success | Gold | Death (W / P) | Mean Score | Mean Steps | Mean Run (s) |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| **A\* (offline oracle)** | 50 | 100.0% | 100.0% | 0.0% (0.0% / 0.0%) | 611.1 | 11.6 | 0.0002 |
+| **Logic-based** | 50 | 78.0% | 86.0% | 10.0% (2.0% / 8.0%) | 444.1 | 39.4 | 0.0022 |
+| **Genetic policy** | 50 | 62.0% | 84.0% | 8.0% (2.0% / 6.0%) | 340.3 | 35.3 | 0.0027 |
+
+> Note: **A\* (offline oracle)** has full-map visibility and serves as an upper-bound reference rather than an information-equivalent competitor (see [Design Notes](#design-notes)).
+ 
 ## Project Structure
 
 ```text
