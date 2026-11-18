@@ -400,7 +400,7 @@ For a detailed discussion of the design decisions, observability differences, kn
 
 - _LinkedIn_: [Saeid Khazaei](https://www.linkedin.com/in/saeidkhazaei/)
 
-- _GitHub_: [@Saeiii-d](https://github.com/Saeiii-d)
+- _Medium_: [@saeiiid.khazaei](https://medium.com/@saeiiid.khazaei)
 
 ## License
 
