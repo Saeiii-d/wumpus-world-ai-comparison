@@ -396,6 +396,11 @@ For a detailed discussion of the design decisions, observability differences, kn
 
 [**Comparing A\*, Knowledge-Based Reasoning, and a Genetic Policy in Wumpus World**](https://medium.com/@saeiiid.khazaei/comparing-a-knowledge-based-reasoning-and-a-genetic-policy-in-wumpus-world-4e9ea8f71b04)
 
+## Connect
+
+[[https://img.shields.io/badge/LinkedIn-Saeid%20Khazaei-0A66C2?style=flat&logo=linkedin]](https://www.linkedin.com/in/saeidkhazaei/)
+[[https://img.shields.io/badge/Medium-%40saeiiid.khazaei-000000?style=flat&logo=medium]](https://medium.com/@saeiiid.khazaei)
+
 ## License
 
 This project is licensed under the MIT License. See [`LICENSE`](LICENSE) for details.
