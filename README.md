@@ -120,7 +120,7 @@ This allows the genetic agent to be demonstrated without retraining the model.
 
 Evaluated on the **50-map held-out GA test split** (`python main.py --ga-test-benchmark --seed 42 --ga-runs 1`):
 
-[!(https://github.com/user-attachments/assets/7ebb1840-546c-43c9-8813-1c67a760db2c)]
+<img width="4050" height="2760" alt="Wumpus World Benchmark Dashboard" src="https://github.com/user-attachments/assets/7ebb1840-546c-43c9-8813-1c67a760db2c" />
 
 | Algorithm | Runs | Success | Gold | Death (W / P) | Mean Score | Mean Steps | Mean Run (s) |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
